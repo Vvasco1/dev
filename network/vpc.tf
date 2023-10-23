@@ -1,5 +1,5 @@
 resource "aws_vpc" "dev" {
-  cidr_block           = "10.10.0.0/16" # 임의 지정
+  cidr_block           = "10.0.0.0/16" # 임의 지정
   instance_tenancy     = "default" # 인스턴스에 대한 테넌트 옵션 기본값
   tags = {
     Name = "DEV-VPC"
